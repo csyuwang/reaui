@@ -1,0 +1,12 @@
+/coverage/
+/test/
+.*
+dist
+public
+site
+gulpfile.js
+webpack.config.js
+npm-debug.log
+package.json
+/scripts/
+/bower.json
