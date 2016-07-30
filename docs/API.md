@@ -67,3 +67,33 @@ render(
 ```
 
 Please see the [`examples/slider`](/examples/slider) directory of the repository for more details of using `<Slider>`.
+
+### `<ColorPicker>`
+
+#### Props
+##### `color`
+Default color
+
+##### `format`
+A specificed output format( `rgb` or `hex` ) of the color value.
+
+##### `onChange`
+The callback of color changed event, a new color value will be transfered into this function.
+
+#### Examples
+
+Render this component into a certain DOM container
+```js
+function handleChange(newColor) {
+  // deal with the color you pick
+}
+
+render(
+  <div>
+    <ColorPicker color='#ff0000' onChange={handleChange} format='rgb'/>
+  </div>,
+  document.getElementById('example')
+);
+```
+
+Please see the [`examples/colorPicker`](/examples/colorPicker) directory of the repository for more details of using `<ColorPicker>`.

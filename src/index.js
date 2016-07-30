@@ -1,3 +1,9 @@
 import Slider from './Slider/Slider';
+import ColorPicker from './ColorPicker/ColorPicker';
 
-export { Slider }
+export default {
+  Slider: Slider,
+  ColorPicker: ColorPicker
+};
+
+export { Slider, ColorPicker };
